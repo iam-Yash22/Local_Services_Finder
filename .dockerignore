@@ -1,0 +1,54 @@
+# Git and editor metadata
+.git/
+.github/
+.vscode/
+.idea/
+
+# Secrets and local environment configuration
+.env
+.env.*
+backend/.env
+backend/.env.*
+.secrets/
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Dependencies and generated frontend output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Python environments, bytecode, tests, and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/tests/
+
+# Local databases and user data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+*.sql.gz
+backend/media/
+solapur_database_with_ratings.json
+
+# Local-only lockfiles, logs, and temporary files
+bun.lock
+bun.lockb
+logs/
+*.log
+*.local
