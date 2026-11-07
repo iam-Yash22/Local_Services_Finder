@@ -1,16 +1,9 @@
 # Local Service Finder
 
-Local Service Finder is a React/Vite single-page application served by the FastAPI application. React is compiled into static files; FastAPI serves those files, the API, and portfolio media from one web service. SQLite is the default development database.c
+Local Service Finder is a React/Vite single-page application served by the FastAPI application. React is compiled into static files; FastAPI serves those files, the API, and portfolio media from one web service. SQLite is the default development database.
+The Local Service Finder is the project which helps user to find Local services providers in the locality the customer is in . For this project initially , the database is fed with data of few sample services in author's hometown . The tool also helps service providers to register themselves and help in providing verified and trustified services to it's customers . An AI chatbot is also added in the working to help the customers navigate services .
 
-
-## Requirements
-
-- Node.js 20 or newer and npm
-- Python 3.11 or newer
-
-
-
-## AI assistant
+# AI assistant
 
 The chatbot uses Google’s Gemini `gemini-2.5-flash` `generateContent` API at `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent`. 
 
